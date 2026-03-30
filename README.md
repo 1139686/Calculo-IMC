@@ -1,2 +1,4 @@
 # Calculo-IMC
-Trabalho avaliativo para calcular o IMC através de um programa feito com java
+
+Adriano Cezar Tessaro Junior / 1138080
+João Alexandre Felizari / 1139686
