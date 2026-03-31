@@ -11,17 +11,17 @@ public class CalculadoraIMC {
         // O try-with-resources gerencia o BufferedReader automaticamente, otimizando a memória
         try (BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in))) {
             
-            // Limpa a tela no início da execução
+            // Limpa a tela no inicio da execução
             System.out.print(CLEAR_SCREEN);
             System.out.flush();
 
-            System.out.println("=== SISTEMA DE AVALIAÇÃO DE IMC ===");
+            System.out.println(" SISTEMA DE AVALIAÇÃO DE IMC ");
             
             System.out.print("Digite o seu nome: ");
             String nome = leitor.readLine();
 
             System.out.print("Gênero (M - Masculino, F - Feminino, N - Não informar): ");
-            // Captura a linha, remove espaços extras, converte para maiúsculo e pega o 1º caractere
+            // Captura a linha, remove espaços extras, converte para maiúsculo e pega o 1 caractere
             String entradaGenero = leitor.readLine().trim().toUpperCase();
             char genero = entradaGenero.isEmpty() ? 'N' : entradaGenero.charAt(0);
 
