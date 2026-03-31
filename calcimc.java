@@ -45,12 +45,12 @@ public class CalculadoraIMC {
             String resultado = """
                               RESUMO DA AVALIAÇÃO
 
-                    Nome..........: %s
-                    Gênero........: %c
-                    Altura........: %.2f m
-                    Peso..........: %.2f kg
-                    IMC Calculado.: %.2f
-                    Classificação.: %s    
+                    Nome: %s
+                    Gênero: %c
+                    Altura: %.2f m
+                    Peso: %.2f kg
+                    IMC Calculado: %.2f
+                    Classificação: %s    
                     """.formatted(nome, genero, altura, peso, imc, classificacao);
 
             System.out.println(resultado);
