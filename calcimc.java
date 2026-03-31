@@ -43,16 +43,14 @@ public class CalculadoraIMC {
 
             // Text Block alinhado para uma exibição visualmente mais bonita e limpa
             String resultado = """
-                    =========================================
                               RESUMO DA AVALIAÇÃO
-                    =========================================
+
                     Nome..........: %s
                     Gênero........: %c
                     Altura........: %.2f m
                     Peso..........: %.2f kg
                     IMC Calculado.: %.2f
-                    Classificação.: %s
-                    =========================================
+                    Classificação.: %s    
                     """.formatted(nome, genero, altura, peso, imc, classificacao);
 
             System.out.println(resultado);
